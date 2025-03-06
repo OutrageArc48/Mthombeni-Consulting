@@ -1,0 +1,143 @@
+/* Header and Navigation */
+header {
+    background: #222; /* Dark Blue Header */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #4b0082, #8b008b);
+    color: #fff;
+}
+
+
+.about img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about div {
+    max-width: 500px;
+}
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #4b0082, #8b008b);
+    color: #fff;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+    padding: 15px 30px;
+}
+
+.logo {
+    height: 50px; /* Adjust size */
+    width: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('your-background.jpg') center/cover no-repeat;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* CTA Button */
+.cta-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #e6b800;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #222;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* Fade-in on page load */
+body {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Slide-in effect */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to headings & text */
+.hero h1, .hero p {
+    animation: slideIn 1.2s ease-in-out;
+}
+
+/* Button hover effect */
+.cta-btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
